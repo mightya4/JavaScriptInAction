@@ -63,3 +63,9 @@ for(let i = 1; i <= loop_edge; i++){
         console.log("hello")
     }
 }
+
+function printMovieName(){
+    nameOfFavoriteMovie = "Harry Potter";
+    console.log(nameOfFavoriteMovie);
+}
+printMovieName();
