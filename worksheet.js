@@ -47,3 +47,19 @@ switch(true){
         break;
 };
 
+let loop_edge = 7;
+for(let i = 0; i < loop_edge; i++){
+    console.log("Javascript is cool!");
+}
+loop_edge = 10;
+for(let i = 0; i <= loop_edge; i++){
+    console.log(i);
+}
+for(let i = 1; i <= loop_edge; i++){
+    if(i%2===0){
+        console.log("goodbye");
+    }
+    else{
+        console.log("hello")
+    }
+}
