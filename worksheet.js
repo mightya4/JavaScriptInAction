@@ -69,3 +69,10 @@ function printMovieName(){
     console.log(nameOfFavoriteMovie);
 }
 printMovieName();
+
+function printFavoriteBandName(){
+    let userInput = prompt("Please enter your favorite band name: ");
+    return userInput;
+}
+let favoriteBandName = printFavoriteBandName();
+console.log(favoriteBandName);
