@@ -76,3 +76,11 @@ function printFavoriteBandName(){
 }
 let favoriteBandName = printFavoriteBandName();
 console.log(favoriteBandName);
+
+function concertDisplay(musicalAct){
+    let myStreet = prompt("Please enter the street name where you reside: ");
+    let result = `It would be great if ${musicalAct} played a show on ${myStreet}!`;
+    return result;
+}
+let sampleResponse = concertDisplay(favoriteBandName);
+console.log(sampleResponse);
