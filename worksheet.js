@@ -95,3 +95,30 @@ while(i < lengthOfArray){
     console.log(desktopItems[i]);
     i++;
 }
+
+let minMagicNum = 0;
+let maxMagicNum = 100;
+let magicNumber = Math.floor(Math.random() * (maxMagicNum - minMagicNum) + minMagicNum);
+let guess = 0;
+while(guess!=magicNumber){
+    guess = prompt("Please guess the magic number: ")
+    let magicNumberUpperLimit = magicNumber + 10;
+    let magicNumberLowerLimit = magicNumber -10;
+    if(guess <= magicNumberUpperLimit && guess >= magicNumberLowerLimit){
+        if(guess == magicNumber){
+            console.log("You have guessed the magic number.");
+            break;
+        }
+        else{
+            console.log("Getting warmer");
+        }
+    }
+    else{
+        if(guess < magicNumber){
+            console.log("Too low!");
+        }
+        else{
+            console.log("Too high!");
+        }
+    }
+}
