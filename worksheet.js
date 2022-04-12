@@ -84,3 +84,14 @@ function concertDisplay(musicalAct){
 }
 let sampleResponse = concertDisplay(favoriteBandName);
 console.log(sampleResponse);
+
+let desktopItems = ['desk', 'lamp', 'printer'];
+let desktopItemindexOne = desktopItems[1]; 
+console.log(desktopItemindexOne);
+desktopItems.push('Infinity Gauntlet');
+lengthOfArray = desktopItems.length;
+let i = 0;
+while(i < lengthOfArray){
+    console.log(desktopItems[i]);
+    i++;
+}
