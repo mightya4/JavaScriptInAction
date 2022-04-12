@@ -26,3 +26,24 @@ switch (true) {
         break;
 }
 console.log(meal);
+
+
+maxNum = 10;
+minNum = 0;
+let randomNumber = Math.floor(Math.random() * (maxNum - minNum) + minNum);
+console.log(randomNumber); 
+switch(true){
+    case randomNumber <= 2:
+        console.log("Beatles")
+        break;
+    case randomNumber <= 5:
+        console.log("Stones")
+        break;
+    case randomNumber <= 8:
+        console.log("Floyd")
+        break;
+    case randomNumber <= 10:
+        console.log("Hendrix")
+        break;
+};
+
